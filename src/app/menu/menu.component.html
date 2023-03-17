@@ -1,0 +1,2 @@
+<button (click)="getPosts()">Tutti</button>
+<button *ngFor="let c of categories" (click)="filterCat(c.id)">{{c.title}}</button>

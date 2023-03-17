@@ -1,0 +1,7 @@
+<div *ngIf="posts">
+    <h2>{{posts.title}}</h2>
+    <h5>{{posts.category}}</h5>
+    <em>Data di pubblicazione {{posts.date | date}}</em>
+    <p>{{posts.body}}</p>
+    <button (click)="addFav(posts)">Aggiungi ai Preferiti</button>
+</div>

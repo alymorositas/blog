@@ -1,0 +1,23 @@
+div {
+  border: 1px solid #9a9a9a;
+  position: relative;
+  padding: 0.4em;
+  border-radius: 5px;
+}
+
+#close {
+  position: absolute;
+  top: 0.3em;
+  left: 95%;
+  cursor: pointer;
+}
+
+#empty {
+  margin-top: 1em;
+  background-color: #d23cff;
+  border: none;
+  padding: 0.5em;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}

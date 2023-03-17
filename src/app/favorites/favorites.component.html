@@ -1,0 +1,5 @@
+<div *ngFor="let p of blogService.favorites">
+    {{p.title}}
+    <button id="close" (click)="delFav(p)">&#10060;</button>
+</div>
+<button *ngIf="arrayFav.length != 0" id="empty" (click)="delFavList()">Svuota</button>

@@ -1,0 +1,16 @@
+div {
+  border: 1px solid #9a9a9a;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  padding: 0.5em;
+}
+
+button {
+  padding: 0.5em;
+  background-color: rgb(115, 33, 192);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
